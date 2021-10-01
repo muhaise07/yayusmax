@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Account</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(darkblue,crimson);
+            background-attachment: fixed;
+            cursor: default;
+            margin: 0%;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        #aa a{
+            background-image: linear-gradient(darkblue,crimson);
+            border-style: hidden;
+            border-radius: 500px;
+        }
+
+        .wrap{
+            display: flex;
+        }
+        .cover1{
+            margin-left: 10px;
+        }
+        .cover2{
+            margin-left: 30px;
+        }
+        iframe{
+             box-shadow: 0 4px 6px 0 darkblue;
+            border-style: hidden;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        button{
+            padding: 30px;
+            border-radius: 5000px;
+            border-style: hidden;
+            margin-top: 50px;
+            background-color: rgb(11, 104, 104);
+            border-spacing: 200px;
+        }
+
+        @keyframes change{
+            20%{background-color: darkblue;}
+            40%{background-color: crimson;}
+            60%{background-color: darkblue;}
+            80%{background-color: crimson;}
+        }
+
+        button{
+            background-color: crimson;
+            padding: 20px;
+            border-radius: 5000px;
+            border-style: hidden;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-size: 30px;
+            animation-name: change;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap" id="rest">
+        <div class="cover1">
+            <h3 style="margin-top: 50px; margin-bottom: 50px; margin-left: 200px;" id="aa"><a href="Action9.html">BACK</a></h3>
+            <h3 style="text-decoration: underline;">You have chosen a personal account.</h3>
+
+            <h2>I just want to let you know the following;</h2>
+            <h4>
+                <li>You will have to present your work separetly.</li>
+                <li>You work in your own office.</li>
+                <li>You will work alone.(This doesn't mean the company won't sponser you.)</li>
+                <li>You will also have to travell alot to get real images.</li>
+            </h4>
+            <h5>Note:Don't worry the company will pay for all your journies.<br><br>Click the done button when you are done.</h5>
+            <a href="Action13.html"><button>DONE</button></a>
+        </div>
+        <div class="cover2">
+            <h3>Just fill in this information.</h3>
+            <div class="contain">
+                <iframe src="frame2.html" height="400px" width="350px"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

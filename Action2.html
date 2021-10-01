@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="Action.css">
+    <style>
+        .dropdown{
+            position: relative;
+            display: block;
+            position: fixed;
+            margin-left: 500px;
+            margin-top: 30px;
+        }
+
+        .dropdown-menu li{
+            list-style-type: none;
+            padding: 15px;
+        }
+
+        .dropdown-menu li:hover{
+            background-color: red;
+            border-style: hidden;
+            border-radius: 20px;
+        }
+
+        .dropdown-menu li:active{
+            background-color: darkred;
+            border-style: hidden;
+            border-radius: 20px;
+        }
+
+        .dropdown-menu{
+            display: none;
+            background-color: darkblue;
+            border-style: hidden;
+            border-radius: 20px;
+        }
+
+        .dropdown:hover .dropdown-menu{
+            display: block;
+        }
+
+        .span{
+            background-image: linear-gradient(blue,red);
+            padding: 10px;
+            border-style: hidden;
+            border-radius: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="div1">
+            <ul class="list1">
+                <a href="Action1.html"><li id="t" style="padding-top: 50px;">Home🏡</li></a>
+                <a href="Action2.html"><li id="t" style=" background-color: rgb(0, 0, 83);">More</li></a>
+                <a href="Action3.html"><li id="t">Contacts</li></a>
+                <a href="Action4.html"><li id="t">Join</li></a>
+                <a href="Action5.html"><li id="t">Pictures</li></a>
+                <a href="Action6.html"><li id="t">Videos</li></a>
+                <a href="Action7.html"><li id="t">Songs</li></a>
+                <a href="Action8.html"><li id="t">Content</li></a>
+                <li><img src="LOGO.PNG" alt="MAXPIXS" style="height: 100px;" width="100px"><h4 style="color: white; font-weight: lighter;"><span style="background-color: rgb(22, 51, 89); color: white;">MAX</span><span style="background-color: white; color: rgb(22, 51, 89);">PIXS</span> everywhere.</h4></li>
+            </ul>
+        </div>
+        <div class="div2">
+            <div class="dropdown">
+                <span class="span">FIND</span>
+                <div class="dropdown-menu">
+                    <a href="#pt1"><li>Intro</li></a>
+                    <a href="#pt2"><li>Members</li></a>
+                    <a href="#pt3"><li>About Pictures</li></a>
+                    <a href="#pt4"><li>Sample Images</li></a>
+                    <a href="#pt5"><li>About Videos</li></a>
+                    <a href="#pt6"><li>About Music</li></a>
+                    <a href="#pt7"><li>Conclusion</li></a>
+                </div>
+            </div>
+            <h1 id="pt1">INTRODUCTION</h1>
+            <p>Welcome this page will show you all about us.
+                <br>
+                Our company is a picture frame company.
+                <br>
+                We make with the best and clearest pictures and frames.
+                <br>
+                <h3>Here is an example.</h3>
+                <img src="girl_train (1).jpg" alt="MAXPIXS" style="height: 200px;">
+            </p>
+
+            <h1 id="pt2">OUR MEMBERS</h1>
+            <h3>Our head of company</h3>
+            <p>
+                Our head manages and maintains the status of our company.
+                <br>
+                He guides and counsels the employees
+                <br>
+                He makes shure everything runs well in the company.
+                <br>
+                <br>
+                <h3>This is his file photo.</h3>
+                <img src="Capture 90.PNG" alt="" height="200px">
+            </p>
+            <h1 id="pt3">OUR PICTURES</h1>
+            <p>
+                You have already seen a sample of our pictures.
+                <br>
+                <h3>Picture Qualities</h3> 
+                <ol>
+                    <li>100% clear.</li>
+                    <br>
+                    <li>Come in all shapes and sizes.</li>
+                </ol>
+                <br>
+                    <h3>Here are more samples.
+                        <br>
+                    Click the images to see them in full size.
+                    </h3>
+                <div class="frame" id="pt4">
+                    <h2>IMAGES</h2>
+                    <iframe src="frame.html" height="800px" width="1010px" style="border-style: none;"></iframe>
+                </div>
+                <h4>So if you want to see more pictures click the ("PICTURES") button.</h4>
+            </p>
+            <p>
+                <h1 id="pt5">OUR VIDEOS</h1>
+                You already saw a sample of our videos on the home page.
+                <br>
+                <br>
+                Our videos are as clear as our pictures.
+                <h3>Enjoy this sample.</h3>
+                <video height="400" width="480" controls>
+                    <source src="MAXVID-REMIX.mp4">
+                </video>
+                <h4>So if you want to see more videos click the ("VIDEOS") button.</h4>
+            </p>
+            <p>
+                <h1 id="pt6">OUR SONGS</h1>
+                It's surprising that we also produce songs.
+                <br>
+                <br>
+                Our songs can come in all types.
+                <br>
+                For example;
+                <li>Jazz music</li>
+                <li>Hard Rock</li>
+                <li>Classic Rock</li>
+                <li>Pop music</li>
+                and many other more...
+                <h3>Enjoy the sample below.</h3>
+                <video height="50" width="320" controls>
+                    <source src="incredible celine dion.mp3">
+                </video>
+                <h4>So if you want to see more songs click the ("SONGS") button.</h4>
+            </p>
+            <h1 id="pt7">CONCLUSION</h1>
+            <p>
+                So if you want to join our company click the ("JOIN") button.
+                <br>
+                If you want to talk to some of our workers click the ("CONTACTS") button.
+                <br>
+                If you want to use or see our pictures,videos or even hear our songs just click the ("Pictures"),("Videos") and ("Songs") buttons.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

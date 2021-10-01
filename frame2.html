@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+            cursor: default;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            border-style: none;
+            font-size: 20px;
+            padding: 5px;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            box-shadow: 0 3px 5px 0 darkblue;
+            background-color: blue;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        span{
+            font-size: 20px;
+            background-color: darkblue;
+            padding-right: 97px;
+            padding-left: 97px;
+            border-style: hidden;
+            border-radius: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label>::User Name::</label>
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <label>::Password::</label>
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <div class="dropdown">
+            <span>**NOTE**</span>
+            <div class="dropdown-content">
+                <h3>
+                    Make sure of the following;
+                    <br>
+                    <li>Your password must have at least seven characters.</li>
+                    <br>
+                    <li>Your password shouldn't have alot of characters.</li>
+                    <br>
+                    <li>Your user name should have more than two characters.</li>
+                </h3>
+            </div>
+        </div>
+        <br>
+        <h4>Fill in one of these.</h4>
+        <h3>Do you want to work from;</h3>
+        <label>::Home::</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label>::Office At Main Building::</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label>::Our Building In Your Area::</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label>::Our Over Sea Offices::</label>
+        <input type="checkbox">
+    </form>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joint Account</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(darkblue,crimson);
+            background-attachment: fixed;
+            cursor: default;
+            margin: 0%;
+        }
+
+        .cover1{
+            margin-left: 10px;
+        }
+
+        .cover2{
+            margin-left: 50px;
+        }
+
+        a{
+            text-decoration: none;
+            border-radius: 500px;
+            padding: 20px;
+            color: black;
+        }
+
+        #aa a{
+            background-image: linear-gradient(darkblue,crimson);
+            border-style: hidden;
+        }
+
+        #t{
+            margin-top: 30px;
+        }
+
+        .wrap{
+            display: flex;
+        }
+
+        label{
+            font-size: 20px;
+        }
+
+        .text{
+            box-shadow: 0 5px 8px 0 rgb(0, 0, 36);
+            border-style: hidden;
+            border-radius: 20px;
+        }
+
+        input{
+            border-style: none;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        iframe{
+            border-style: hidden;
+            border-radius: 20px;
+        }
+
+        @keyframes change{
+            20%{background-color: darkblue;}
+            40%{background-color: crimson;}
+            60%{background-color: darkblue;}
+            80%{background-color: crimson;}
+        }
+
+        button{
+            background-color: crimson;
+            padding: 20px;
+            border-radius: 5000px;
+            border-style: hidden;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-size: 30px;
+            animation-name: change;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap" id="rest">
+        <div class="cover">
+            <h3 style=" margin-bottom: 50px; margin-left: 200px;" id="aa"><a href="Action9.html">BACK</a></h3>
+            <h3 style="text-decoration: underline;">You have chosen a joint account.</h3>
+
+            <h2>I just wanted to let you know the following;</h2>
+            <h4>
+                <li>You will have to present your work with that of your group members.</li>
+                <li>You will work in the same office.{Your office will be very big for better work effort.}</li>
+                <li>You will have to work in your group.</li>
+                <li>You will have to travel alot to get real images.</li>
+            </h4>
+            <h5>Note:The company will pay for all your journies.<br><br>Click the done button when you are done.</h5>
+            <a href="Action13.html"><button>DONE</button></a>
+        </div>
+        <div class="cover2">
+            <h3>Just fill in this application.</h3>
+            <div class="text">
+                <iframe src="frame3.html" height="600px" width="575px"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
